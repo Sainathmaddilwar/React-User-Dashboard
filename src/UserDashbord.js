@@ -2,7 +2,7 @@ import react from "react";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const Dashboard = () => {
+const UserDashboard = () => {
   const [data, setdata] = useState({});
   const [id, setId] = useState(1);
   const Url = `https://reqres.in/api/users/${id}`;
@@ -38,4 +38,4 @@ const Dashboard = () => {
     </div>
   );
 };
-export default Dashboard;
+export default UserDashboard;

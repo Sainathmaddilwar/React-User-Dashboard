@@ -28,9 +28,9 @@ class Dashboard extends React.Component{
     const ids = ev.target.value;
     console.log(ids);
     
-    // this.setState({
-    //   id:ids
-    // });
+    this.setState({
+      id:ids
+    });
   }
   render(){
     console.log("render");
